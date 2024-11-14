@@ -17,7 +17,7 @@
 }
 .wrapper header {
   margin-bottom: 40px;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
 }
 .input {
@@ -39,6 +39,12 @@
   border: none;
   color: white;
   outline: none;
+}
+.form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 .phoneNo {
   color: #1ed760;
@@ -73,6 +79,7 @@
 .signUp {
   display: flex;
   flex-direction: column;
+  gap: 8px;
 }
 .signUp button {
   padding: 0px 20px;
@@ -93,8 +100,8 @@
 }
 .login {
   color: #b3b3b3;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 30px;
+  margin-bottom: 40px;
   text-align: center;
 }
 .login a {
@@ -111,4 +118,11 @@
   color: #fff;
   color: #818181;
   text-decoration: underline;
+}
+.forgotPass {
+  text-align: center;
+  padding-top: 20px;
+}
+.forgotPass a {
+  color: #fff;
 }
